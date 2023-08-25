@@ -35,7 +35,7 @@ const Hero = () => {
             src={webDashboardImg}
             alt="web Dashboard Image"
           />
-        <div className="font-inter font-medium text-white bg-gradient-to-r from-[#1F94FB] to-[#00F2FE] px-8 py-3 rounded-[40px] z-10 lg:absolute bottom-3 left-0 inline-block mt-5 "> 
+        <div className="font-inter font-medium text-white gradient px-8 py-3 rounded-[40px] z-10 lg:absolute bottom-3 left-0 inline-block mt-5 cursor-pointer"> 
           Start For Free
         </div>
         </div>

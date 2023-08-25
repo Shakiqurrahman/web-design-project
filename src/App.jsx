@@ -4,9 +4,14 @@ import EmailSheet from "./components/EmailSheet";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import styles from "./style";
+import WorksCard from "./components/WorksCard";
+import Team from "./components/Team";
 
 import bgImg from "./assets/bg.png";
-import WorksCard from "./components/WorksCard";
+import teamBg from "./assets/team-bg.png";
+import Testimonials from "./components/Testimonials";
+import SlideCard from "./components/SlideCard";
+
 
 const App = () => {
   return (
@@ -34,6 +39,16 @@ const App = () => {
       <div className={`${styles.boxWidth} ${styles.paddingX}`}>
         <WorksCard />
       </div>
+      <div className="relative">
+        <img className="absolute top-[380px]" src={teamBg} alt="team bg" />
+      <div className={`${styles.boxWidth} ${styles.paddingX}`}>
+        <Team />
+      </div>
+      <div className={`${styles.boxWidth} ${styles.paddingX}`}>
+        <Testimonials />
+      </div>
+      </div>
+      <SlideCard />
     </div>
   );
 };

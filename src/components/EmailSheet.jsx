@@ -3,7 +3,6 @@ import React from "react";
 import { BiChevronRight } from "react-icons/bi";
 import EmailSheetImg from "../assets/emailsheet.png";
 import Circle from '../assets/Menu.png'
-import URLAddress from '../assets/Address.png'
 
 const EmailSheet = () => {
   return (

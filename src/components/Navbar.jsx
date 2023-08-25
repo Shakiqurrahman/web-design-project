@@ -21,7 +21,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      <div className=" bg-[#004495] px-8 py-4 rounded-[40px] hidden sm:flex items-center text-white text-[16px] ease-in duration-300 hover:bg-white hover:text-[#004495]">
+      <div className=" bg-[#004495] px-8 py-4 rounded-[40px] hidden sm:flex items-center text-white text-[16px] ease-in duration-300 hover:bg-white hover:text-[#004495] cursor-pointer">
         <AiOutlineUserAdd className="mr-3 text-xl"/>
         Login
       </div>

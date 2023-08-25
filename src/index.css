@@ -13,16 +13,33 @@ body {
 }
 
 .stroke-btn{
-  @apply flex  justify-center w-[250px] h-[60px] relative  text-[#1D223C] text-xl font-semibold py-3 border border-[#00F2FE] rounded-[45px];
+  @apply flex  justify-center  w-[250px] h-[60px] relative  text-[#1D223C] text-xl font-semibold py-3 cursor-pointer border border-[#00F2FE] rounded-[45px];
 }
 
 .stroke-btn:after {
   @apply content-['']   w-[250px] h-[60px] border-2 border-[#00F2FE] rounded-[45px] absolute top-[-8px] left-[-8px] z-20;
 }
 
+.gradient {
+  @apply bg-gradient-to-r from-[#1F94FB] to-[#00F2FE];
+}
+
 .sidebar {
   -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+article.activeSlide {
+  opacity: 1;
+  transform:  translateX(0);
+}
+
+article.lastSlide {
+  transform:  translateX(-100%);
+}
+
+article.nextSlide {
+  transform: translateX(100%)
 }
 
 @-webkit-keyframes slide-top {

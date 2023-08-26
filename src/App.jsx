@@ -7,6 +7,7 @@ import WorksCard from "./components/WorksCard";
 import Team from "./components/Team";
 import Testimonials from "./components/Testimonials";
 import Pricing from "./components/Pricing";
+import Footer from "./components/Footer";
 import styles from "./style";
 
 import bgImg from "./assets/bg.png";
@@ -49,6 +50,9 @@ const App = () => {
       </div>
       <div className={`${styles.boxWidth}  ${styles.paddingX}`}>
         <Pricing />
+      </div>
+      <div className={`${styles.boxWidth}  ${styles.paddingX}`}>
+        <Footer />
       </div>
     </div>
   );

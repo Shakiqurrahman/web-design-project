@@ -8,7 +8,7 @@ import { BsCheck2Circle, BsPatchCheck } from "react-icons/bs";
 
 const Pricing = () => {
   return (
-    <section className="relative mt-36 font-inter">
+    <section className="relative mt-36 font-inter mb-[700px]">
       <h1 className="text-center mb-4 sm:text-[35px] text-xl font-semibold">
         Pricing plans for every need
       </h1>
@@ -26,8 +26,8 @@ const Pricing = () => {
         alt="shape 2"
       />
 
-      <div className="flex justify-center items-center">
-        <div className=" bg-white sm:px-20 px-4 sm:py-16 py-4 absolute sm:top-40 top-24 rounded-3xl z-10 sm:w-10/12 ">
+      <div className="flex justify-center items-center relative">
+        <div className=" bg-white sm:px-20 px-4 sm:py-16 py-4 absolute sm:top-20  top-10 rounded-3xl z-10 sm:w-10/12 ">
           <div className="flex md:flex-row flex-col-reverse justify-between md:items-center ">
             <div className="md:mr-16 mr-0">
               <p className="text-xl mb-6 text-[#2B2B5B]">

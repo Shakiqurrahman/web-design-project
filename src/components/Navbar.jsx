@@ -30,7 +30,7 @@ const Navbar = () => {
 
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <div
-          className="text-3xl text-white bg-[#004495] px-2 py-1 mr-5 rounded-[5px]  "
+          className="text-3xl text-white bg-[#004495] px-2 py-1 mr-2 rounded-[5px]  "
           onClick={() => setToggle(!toggle)}
         >
           {toggle ? <MdOutlineClose /> : <HiMenu />}

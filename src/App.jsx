@@ -48,7 +48,6 @@ const App = () => {
         <Testimonials />
       </div>
       </div>
-      <SlideCard />
     </div>
   );
 };

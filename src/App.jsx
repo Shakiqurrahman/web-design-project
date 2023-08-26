@@ -1,17 +1,16 @@
 import React from "react";
 
-import EmailSheet from "./components/EmailSheet";
-import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import styles from "./style";
+import Hero from "./components/Hero";
+import EmailSheet from "./components/EmailSheet";
 import WorksCard from "./components/WorksCard";
 import Team from "./components/Team";
+import Testimonials from "./components/Testimonials";
+import Pricing from "./components/Pricing";
+import styles from "./style";
 
 import bgImg from "./assets/bg.png";
 import teamBg from "./assets/team-bg.png";
-import Testimonials from "./components/Testimonials";
-import SlideCard from "./components/SlideCard";
-
 
 const App = () => {
   return (
@@ -41,12 +40,15 @@ const App = () => {
       </div>
       <div className="relative">
         <img className="absolute top-[380px]" src={teamBg} alt="team bg" />
-      <div className={`${styles.boxWidth} ${styles.paddingX}`}>
-        <Team />
+        <div className={`${styles.boxWidth} ${styles.paddingX}`}>
+          <Team />
+        </div>
+        <div className={`${styles.boxWidth} ${styles.paddingX}`}>
+          <Testimonials />
+        </div>
       </div>
-      <div className={`${styles.boxWidth} ${styles.paddingX}`}>
-        <Testimonials />
-      </div>
+      <div className={`${styles.boxWidth}  ${styles.paddingX}`}>
+        <Pricing />
       </div>
     </div>
   );

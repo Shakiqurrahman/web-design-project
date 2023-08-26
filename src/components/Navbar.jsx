@@ -15,22 +15,25 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-inter font-normal text-white cursor-pointer text-[18px] ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
+            className={`font-inter font-normal text-white cursor-pointer text-[18px] ${
+              index === navLinks.length - 1 ? "mr-0" : "mr-10"
+            }`}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
       </ul>
       <div className=" bg-[#004495] px-8 py-4 rounded-[40px] hidden sm:flex items-center text-white text-[16px] ease-in duration-300 hover:bg-white hover:text-[#004495] cursor-pointer">
-        <AiOutlineUserAdd className="mr-3 text-xl"/>
+        <AiOutlineUserAdd className="mr-3 text-xl" />
         Login
       </div>
 
       <div className="sm:hidden flex flex-1 justify-end items-center">
-        <div className="text-3xl text-white bg-[#004495] px-2 py-1 mr-5 rounded-[5px]  " onClick={() => setToggle(!toggle)}>
-        {
-            toggle ? <MdOutlineClose /> : <HiMenu />
-        }
+        <div
+          className="text-3xl text-white bg-[#004495] px-2 py-1 mr-5 rounded-[5px]  "
+          onClick={() => setToggle(!toggle)}
+        >
+          {toggle ? <MdOutlineClose /> : <HiMenu />}
         </div>
 
         <div
@@ -42,7 +45,9 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-inter font-medium cursor-pointer text-[16px] ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
+                className={`font-inter font-medium cursor-pointer text-[16px] ${
+                  index === navLinks.length - 1 ? "mb-0" : "mb-4"
+                }`}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>

@@ -27,9 +27,9 @@ const Pricing = () => {
       />
 
       <div className="flex justify-center items-center">
-        <div className=" bg-white sm:px-20 px-4 sm:py-16 py-10 absolute sm:top-40 top-24 rounded-3xl z-10 sm:w-10/12 ">
-          <div className="flex md:flex-row flex-col justify-between md:items-center ">
-            <div className="md:mr-16 mr-0 md:mb-0 mb-10">
+        <div className=" bg-white sm:px-20 px-4 sm:py-16 py-4 absolute sm:top-40 top-24 rounded-3xl z-10 sm:w-10/12 ">
+          <div className="flex md:flex-row flex-col-reverse justify-between md:items-center ">
+            <div className="md:mr-16 mr-0">
               <p className="text-xl mb-6 text-[#2B2B5B]">
                 <span className="flex items-center">
                   <BsCheck2Circle className="mr-3 text-[#85ABE5]" />
@@ -67,7 +67,7 @@ const Pricing = () => {
                 </span>
               </p>
             </div>
-            <div className="flex flex-col justify-center items-center relative md:w-2/5 w-full">
+            <div className="flex flex-col justify-center items-center relative md:w-2/5 w-full md:mb-0 mb-10">
               <img className=" w-full" src={pricingBg} alt="Bg" />
               <div className="absolute text-white">
                 <h2 className="text-[35px] px-0">$300 $50/month</h2>

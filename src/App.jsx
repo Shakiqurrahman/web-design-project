@@ -39,7 +39,7 @@ const App = () => {
         <WorksCard />
       </div>
       <div className="relative">
-        <img className="absolute top-[380px]" src={teamBg} alt="team bg" />
+        <img className="absolute top-[380px] sm:h-auto h-[780px]" src={teamBg} alt="team bg" />
         <div className={`${styles.boxWidth} ${styles.paddingX}`}>
           <Team />
         </div>

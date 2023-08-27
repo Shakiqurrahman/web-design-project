@@ -15,7 +15,7 @@ const WorksCard = () => {
         alt="shape img"
       />
 
-      <div className="overflow-hidden">
+      <div>
         <SlideCard/>
       </div>
     </section>

@@ -11,11 +11,11 @@
 }
 
 .testimonial-button .swiper-button-prev {
-    left: 50%;
+    left: 40% !important;
 }
 
 .testimonial-button .swiper-button-next{
-    right: 50% !important;
+    right: 40% !important;
 }
 
 
@@ -23,3 +23,13 @@
     padding-bottom:6rem!important;
 }
 
+
+@media (800px > width) {
+    .testimonial-button .swiper-button-prev {
+        left: 32% !important;
+    }
+    
+    .testimonial-button .swiper-button-next{
+        right: 32% !important;
+    }
+}

@@ -1,0 +1,25 @@
+.swiper-button-next::after{
+    content: none;
+}
+.swiper-button-prev:after{
+    content: none;
+}
+
+.swiper-button-next , .swiper-button-prev{
+    width:4.5rem;
+    top:95%;
+}
+
+.swiper-button-next.slide-card, .swiper-button-prev.slide-card{
+    top:90%
+}
+
+.swiper-wrapper{
+    padding-bottom:6rem!important;
+}
+.testimonial-next-prev-icon .swiper-button-next{
+    left:53%!important
+}
+.testimonial-next-prev-icon .swiper-button-prev{
+    left:45%!important
+}

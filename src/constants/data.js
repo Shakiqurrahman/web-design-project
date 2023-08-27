@@ -53,6 +53,29 @@ export const navLinks = [
       speed online`,
       desq: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`
     },
+    {
+      id : 4,
+      img: google,
+      title : `Supercharge your writing
+      speed online`,
+      desq: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`
+
+    },
+    {
+      id : 5,
+      img: youtube,
+      title : `Supercharge your writing
+      speed online`,
+      desq: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`
+
+    },
+    {
+      id : 6,
+      img: tiktok,
+      title : `Supercharge your writing
+      speed online`,
+      desq: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`
+    },
   ]
 
   export const testimonialData = [
@@ -72,6 +95,27 @@ export const navLinks = [
     },
     {
       id: 3,
+      img: avatar3,
+      name : "Gibby Radki",
+      title : "Developer",
+      message : "Reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road"
+    },
+    {
+      id: 4,
+      img: avatar1,
+      name : "Gibby Radki",
+      title : "Developer",
+      message : "Reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road"
+    },
+    {
+      id: 5,
+      img: avatar2,
+      name : "Gibby Radki",
+      title : "Developer",
+      message : "Reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road"
+    },
+    {
+      id: 6,
       img: avatar3,
       name : "Gibby Radki",
       title : "Developer",

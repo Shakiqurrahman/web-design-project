@@ -1,19 +1,19 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-import { worksCardData } from "../constants/data";
 import { BiChevronRight } from "react-icons/bi";
 import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { worksCardData } from "../constants/data";
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/pagination";
 import "swiper/css/navigation";
+import "swiper/css/pagination";
 import "./SwiperStyle.css";
 // import 'swiper/swiper-bundle.min.css';
 
 // import required modules
-import { Navigation,  Mousewheel, Keyboard } from "swiper/modules";
+import { Keyboard, Mousewheel, Navigation } from "swiper/modules";
 
 export default function SlideCard() {
   return (
@@ -30,14 +30,12 @@ export default function SlideCard() {
         }}
         // navigation={true}
         modules={[Navigation, Mousewheel, Keyboard]}
-        className="mySwiper"
+        className="mySwiper w-[1300px]"
       >
         {worksCardData.map((data) => {
           return (
             <SwiperSlide key={data.id}>
-              <div
-                className="flexStart lg:w-auto md:w-[360px] sm:w-[300px] w-full flex-col sm:mr-8  sm:mb-16 mb-8 rounded-3xl px-10 py-12 drop-shadow-3xl bg-white"
-              >
+              <div className="lg:w-auto md:w-[360px] sm:w-[300px] w-full sm:mr-8  sm:mb-16 mb-8 rounded-3xl px-10 py-12 drop-shadow-3xl bg-white ">
                 <img src={data.img} className="mb-8" alt="card image" />
                 <h3 className="font-bold sm:text-xl text-lg w-4/5 mb-2.5">
                   {data.title}
@@ -52,17 +50,15 @@ export default function SlideCard() {
             </SwiperSlide>
           );
         })}
-        <div className="flex justify-between">
-        <div className="swiper-button-prev slide-card">
-          <span className="bg-white drop-shadow-xl text-[#757575] p-2 text-2xl rounded-md cursor-pointer">
+
+        <div className="swiper-button-prev slide-card md:top-90%">
+          <span className="bg-white drop-shadow-xl text-[#757575] p-2 text-2xl rounded-md cursor-pointer md:p-3 md:mr-4">
             <BsArrowLeftShort />
           </span>
         </div>
-        <div className="swiper-button-next slide-card">
-          <span className="gradient drop-shadow-xl text-white p-2 text-2xl rounded-md sm:mr-4 cursor-pointer">
-            <BsArrowRightShort />
+        <div className="swiper-button-next slide-card md:top-90%">
+          <span className="gradient drop-shadow-xl p-2 text-2xl rounded-md md:bg-gradient-to-r md:from-[#1F94FB] md:to-[#0067F4] text-white md:p-3 md:mr-4 cursor-pointer"><BsArrowRightShort />
           </span>
-        </div>
         </div>
       </Swiper>
     </>

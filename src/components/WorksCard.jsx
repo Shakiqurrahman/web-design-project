@@ -15,7 +15,7 @@ const WorksCard = () => {
         alt="shape img"
       />
 
-      <div className="flex sm:flex-row flex-col items-center justify-between lg:flex-nowrap  sm:flex-wrap">
+      <div className="overflow-hidden">
         <SlideCard/>
       </div>
     </section>

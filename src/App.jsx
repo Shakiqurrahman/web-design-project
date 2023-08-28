@@ -51,9 +51,7 @@ const App = () => {
       <div className={`${styles.boxWidth}  ${styles.paddingX}`}>
         <Pricing />
       </div>
-      <div className={`${styles.boxWidth}  ${styles.paddingX}`}>
         <Footer />
-      </div>
     </div>
   );
 };

@@ -8,7 +8,7 @@ import { BsCheck2Circle, BsPatchCheck } from "react-icons/bs";
 
 const Pricing = () => {
   return (
-    <section className="relative mt-36 font-inter mb-[700px]">
+    <section className="relative mt-36 font-inter lg:mb-[700px] sm:mb-[1150px] ss:mb-[850px] mb:[750px]">
       <h1 className="text-center mb-4 sm:text-[35px] text-xl font-semibold">
         Pricing plans for every need
       </h1>
@@ -16,7 +16,7 @@ const Pricing = () => {
         The most affordable WordPress SEO plugin.
       </p>
       <img
-        className="absolute md:visible invisible top-24 left-0"
+        className="absolute md:visible invisible top-24 left-0 "
         src={shape1}
         alt="shape 1"
       />

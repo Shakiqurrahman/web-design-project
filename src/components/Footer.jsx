@@ -15,14 +15,14 @@ const Footer = () => {
       <img className="absolute sm:h-[160vh] md:visible invisible" src={footerBg} alt="footer bg" />
       <div className="text-white flex flex-col items-center justify-center relative md:top-36 z-10 md:mt-16">
         <h2 className=" text-[25px] font-medium mb-3">Newsletter</h2>
-        <p className="sm:w-[500px] text-center text-sm mb-8">
+        <p className="sm:w-[500px] text-center text-sm mb-8 sm:mx-0 mx-8">
           Be the first one to know about discounts, offers and events weekly in
           your mailbox. Unsubscribe whenever you like with one click.
         </p>
-        <div className="bg-deep-blue  pl-6 pr-2 py-2  rounded-lg flex items-center sm:w-[120%]">
+        <div className="bg-deep-blue  sm:pl-6 pl-3 pr-2 py-2  rounded-lg flex items-center sm:w-[120%] w-[80%]">
           <IoMailOutline size={22} className="mr-3" />
           <input
-            className="bg-transparent focus:outline-none placeholder:text-white w-full block"
+            className="bg-transparent focus:outline-none placeholder:text-white sm:w-full w-8/12  inline-block"
             placeholder="Enter your email"
             type="email"
           />

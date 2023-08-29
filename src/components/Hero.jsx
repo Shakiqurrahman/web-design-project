@@ -1,6 +1,3 @@
-import React from "react";
-
-import bgImg from "../assets/bg.png";
 import leftHeroImg from "../assets/left-hero-img.png";
 import ratings from "../assets/ratings.png";
 import webDashboardImg from "../assets/Web Dashboard.png";
@@ -16,7 +13,7 @@ const Hero = () => {
           </h1>
           <p className="sm:text-lg text-sm mb-6 ">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's
+            industry. Lorem Ipsum has been the industrys
           </p>
           <img
             className="w-full ss:w-auto sm:mb-0 mb-4  bg-[rgba(255,255,255,0.86)]  p-4 rounded-xl"

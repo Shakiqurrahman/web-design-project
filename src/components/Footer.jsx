@@ -1,5 +1,3 @@
-import React from "react";
-
 import {
   FaFacebookF,
   FaInstagram,
@@ -11,7 +9,7 @@ import footerBg from "../assets/footer-bg.png";
 
 const Footer = () => {
   return (
-    <footer className="relative sm:mt-0 mt-[900px] flex flex-col items-center md:bg-transparent bg-blue-600 md:justify-center  h-full md:py-0  py-10 text-inter">
+    <footer className="relative flex flex-col items-center md:bg-transparent bg-blue-600 md:justify-center  h-full md:py-0  py-10 text-inter">
       <img className="absolute sm:h-[160vh] md:visible invisible" src={footerBg} alt="footer bg" />
       <div className="text-white flex flex-col items-center justify-center relative md:top-36 z-10 md:mt-16">
         <h2 className=" text-[25px] font-medium mb-3">Newsletter</h2>

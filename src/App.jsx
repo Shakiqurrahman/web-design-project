@@ -1,5 +1,3 @@
-import React from "react";
-
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import EmailSheet from "./components/EmailSheet";
@@ -7,6 +5,7 @@ import WorksCard from "./components/WorksCard";
 import Team from "./components/Team";
 import Testimonials from "./components/Testimonials";
 import Pricing from "./components/Pricing";
+import Accordion from "./components/Accordion";
 import Footer from "./components/Footer";
 import styles from "./style";
 
@@ -51,7 +50,8 @@ const App = () => {
       <div className={`${styles.boxWidth}  ${styles.paddingX}`}>
         <Pricing />
       </div>
-        <Footer />
+      <Accordion />
+      <Footer />
     </div>
   );
 };

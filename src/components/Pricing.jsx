@@ -1,5 +1,3 @@
-import React from "react";
-
 import shape1 from "../assets/Vector.png";
 import pricingBg from "../assets/pricing-bg.png";
 import shape2 from "../assets/shape-2.png";

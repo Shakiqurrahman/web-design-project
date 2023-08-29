@@ -36,7 +36,7 @@ const App = () => {
   ];
 
   return (
-    <div className='text-inter flex flex-col items-center w-[100vw] md:mb-48 mb-10 sm:mt-0 ss:mt-[930px] mt-[770px]'>
+    <div className='text-inter flex flex-col items-center md:justify-normal justify-center w-[100vw] h-[100vh] mb-20 relative z-10  sm:mt-0 xs:mt-[870px] mt-[730px]'>
         <h1 className='sm:text-[35px] text-xl font-bold'>Frequently asked questions</h1>
         <p className='text-[15px] text-center sm:w-full w-9/12 font-medium sm:mt-6 mt-2 sm:mb-14 mb-5 text-[#3E4461]'>Your email address will not be published. Required fields are marked*</p>
       <div className="md:w-[1000px] w-full md:px-0 sm:px-20 px-6">
